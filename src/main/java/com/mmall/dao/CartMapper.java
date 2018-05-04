@@ -9,7 +9,7 @@ public interface CartMapper {
 
     int insertSelective(Cart record);
 
-    Cart selectByPrimaryKey(Integer id);
+    Cart  selectByPrimaryKey(Integer id);
 
     int updateByPrimaryKeySelective(Cart record);
 
